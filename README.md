@@ -169,6 +169,7 @@ En la ruta del proyecto, en mi caso frontend\panel-admin> ejecutamos el siguient
 
 Ponemos la ruta del localhost en el navegador y vemos los resultados:
 
+
 ![image](https://github.com/user-attachments/assets/dc95e62f-4843-4a0f-a133-6b2640003f00)
 
 
