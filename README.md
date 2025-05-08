@@ -28,7 +28,7 @@ Construir una interfaz web con un **menú de navegación moderno**, enlazando la
 
 ### 1. Crear proyecto con Vite
 
-```bash
+
 npm create vite@latest panel-admin --template react
 
 ![image](https://github.com/user-attachments/assets/a2d22ed0-3a4d-4039-8703-2f912c12b9e9)
