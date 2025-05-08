@@ -37,6 +37,7 @@ cd panel-admin
 npm install
 npm install react-router-dom bootstrap
 
+
 ![image](https://github.com/user-attachments/assets/03b8d2dc-4803-4090-840a-fccf996efd66)
 
 
