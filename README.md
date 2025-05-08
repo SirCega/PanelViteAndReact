@@ -48,7 +48,7 @@ npm install react-router-dom bootstrap
 ### 3. Importa Bootstrap en tu proyecto
 
 En el archivo main.jsx agregamos la importación de Bootstrap arriba de todo:
-
+```javascript
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
@@ -60,7 +60,7 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-
+```
 ### 4. Creamos la carpeta pages
 Y creamos los componentes de cada vista dentro de la carpeta src.
 Luego, creamos los siguientes archivos:
@@ -86,6 +86,7 @@ Creamos una carpeta llamada components dentro de src, y dentro de ella crea Navb
 
 ![image](https://github.com/user-attachments/assets/79ac0718-e0d9-4dc8-a715-eb84ff8f89c9)
 
+```javascript
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -123,10 +124,11 @@ function Navbar() {
 }
 
 export default Navbar;
-
+```
 
 ### 6. Configuramos las rutas en App.jsx
 
+```javascript
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Clientes from './pages/Clientes';
 import Proveedor from './pages/Proveedor';
@@ -151,7 +153,7 @@ function App() {
 }
 
 export default App;
-
+```
 
 ### 7. Eliminamos las carpetas de estilos prederterminados
 Al crear el proyecto con vite y react se crean unos estilos por defecto, yo los elimine ya que ya estoy usando el bootstrap.
