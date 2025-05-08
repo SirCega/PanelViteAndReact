@@ -26,7 +26,7 @@ Construir una interfaz web con un **menú de navegación moderno**, enlazando la
 
 ## ⚙️ Instalación del proyecto
 
-## 1. Crear proyecto con Vite
+### 1. Crear proyecto con Vite
 
 ```bash
 npm create vite@latest panel-admin --template react
@@ -40,11 +40,11 @@ npm install react-router-dom bootstrap
 
 ![image](https://github.com/user-attachments/assets/03b8d2dc-4803-4090-840a-fccf996efd66)
 
-
-## 2. Estructura de carpetas creadas de forma predeterminada
+---
+### 2. Estructura de carpetas creadas de forma predeterminada
 
 ![image](https://github.com/user-attachments/assets/ccd081bf-9143-4359-b22e-531e3a1f2975)
-
+---
 ## 3. Importa Bootstrap en tu proyecto
 
 En el archivo main.jsx agregamos la importación de Bootstrap arriba de todo:
@@ -60,7 +60,7 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-
+---
 ## 4. Creamos la carpeta pages
 Y creamos los componentes de cada vista dentro de la carpeta src.
 Luego, creamos los siguientes archivos:
@@ -79,7 +79,7 @@ Y en cada pagina ponemos una estructura similar a esta:
 
 ![image](https://github.com/user-attachments/assets/fe34cf37-eb91-472c-931b-7e2173723885)
 
-
+---
 ## 5. Creamos el componente de navegación
 
 Creamos una carpeta llamada components dentro de src, y dentro de ella crea Navbar.jsx con este contenido básico:
@@ -124,8 +124,8 @@ function Navbar() {
 
 export default Navbar;
 
-
-## 5. Configuramos las rutas en App.jsx
+---
+## 6. Configuramos las rutas en App.jsx
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Clientes from './pages/Clientes';
@@ -152,8 +152,8 @@ function App() {
 
 export default App;
 
-
-## 6. Eliminamos las carpetas de estilos prederterminados
+---
+## 7. Eliminamos las carpetas de estilos prederterminados
 Al crear el proyecto con vite y react se crean unos estilos por defecto, yo los elimine ya que ya estoy usando el bootstrap.
 Asi quedan los archivos de src:
 
@@ -161,8 +161,8 @@ Asi quedan los archivos de src:
 
 Y quitamos la siguiente linea de main.jsx
 import './index.css'
-
-## 7. Ejecutamos
+---
+## 8. Ejecutamos
 En la ruta del proyecto, en mi caso frontend\panel-admin> ejecutamos el siguiente comando npm run dev
 
 ![image](https://github.com/user-attachments/assets/021f9356-58f1-485f-9319-3ecbf5a957bb)
